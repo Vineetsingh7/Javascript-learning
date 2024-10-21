@@ -1,0 +1,6 @@
+let a =first.getAttribute("class")
+console.log(a)
+console.log(first.hasAttribute("Class"))
+console.log(first.hasAttribute("style"))
+first.removeAttribute("class")
+console.log(first.attributes)
