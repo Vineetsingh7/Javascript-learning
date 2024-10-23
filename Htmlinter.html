@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>adipisicing
+    <div id="myDiv">
+        <p id="firstParagraph">Lorem ipsum dolor sit amet consectetur  elit. Fugit, inventore quas error dolor magnam eaque repudiandae in voluptatem possimus totam doloremque voluptas quasi excepturi. Ullam repellat laudantium fuga voluptate perferendis.</p>
+      </div>
+      <script>
+        const myDiv = document.getElementById("myDiv");
+        const newParagraph = document.createElement("p");
+        newParagraph.textContent = "This is a new paragraph.";
+        const firstParagraph = document.getElementById("firstParagraph");
+        myDiv.insertBefore(newParagraph, firstParagraph);
+      </script>
+</body>
+</html>
